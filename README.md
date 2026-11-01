@@ -38,7 +38,7 @@ Through this project, I practiced:
 
 **Karim Adel**
 
-- GitHub:https://github.com/karimadel123
+- GitHub: https://github.com/karimadel123
 
 ---
 
@@ -46,4 +46,3 @@ Through this project, I practiced:
 
 
 
- https://karimadel123.github.io/Product-Management-CRUD/
