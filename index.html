@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/png" sizes="32x32"  href="image/logo.jpg">
+    <title>CRUDS</title>
+</head>
+<body>
+    <div class="cruds">
+        <div class="head">
+            <h1>CRUDS</h1>
+            <p>PRODUCT MANGEMENT SYSTEM</p>
+        </div>
+        <div class="inputs">
+            <input type="text" id="model" placeholder="Model">
+            <div class="price">
+                <input onkeyup="gettotal()" type="number"  id="price"  placeholder="price">
+                <input onkeyup="gettotal()" type="number"  id="taxes"  placeholder="taxes">
+                <input onkeyup="gettotal()" type="number"  id="ads"  placeholder="ads">
+                <input onkeyup="gettotal()"type="number"  id="discount"  placeholder="discount">
+                <small id="total">....</small>
+            </div>
+            <input type="number" id="count" placeholder="Enter Your Count">
+            <input type="text" id="category" placeholder="Category">
+            <button id="sumbit">Creat</button>
+        </div>
+        <div class="outputs">
+
+            <div class="search">
+                <input onkeyup=" SearchDate(this.value)" type="text" placeholder="Search" id="search">
+            </div>
+            <div class="btn-search">
+            <button onclick=" getsearchmode(this.id)" id="SearchModel">Search By Model </button>
+            <button  onclick=" getsearchmode(this.id)" id="SearchCategory">Search By Category</button>
+        </div>
+<div id="deleteall"></div>
+
+      
+<div class="container">  <table>
+            <thead>
+ <tr>
+                <th>ID</th>
+                <th>Model</th>
+                <th>Price</th>
+                <th>Taxes</th>
+                <th>Ads</th>
+                <th>Discount</th>
+                <th>Total</th>
+                <th>Category</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+            </thead>
+
+            <tbody id="tbody">
+                
+             
+            </tbody>
+           
+        </table></div>
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+    <footer class="footer">
+        <p>© 2026 K/ — Built with passion & code.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

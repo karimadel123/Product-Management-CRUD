@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #0F0F14;
+    color: white;
+    font-family: sans-serif;
+}
+
+.cruds {
+    width: 80%;
+    margin: auto;
+}
+
+.head {
+    text-align: center;
+    padding: 2px;
+    margin: 10px 0;
+
+}
+
+h1 {
+    color: #7C3AED;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    margin: 4px;
+    padding: 4px;
+    outline: none;
+    border: none;
+    background-color: #1E1B4B;
+    color: #F8FAFC;
+    border-radius: 5px;
+    border: 1px solid #312E81;
+}
+
+input:focus {
+    background-color: #22203d;
+    transform: scale(1.1);
+}
+
+.price input {
+    width: 20%;
+}
+
+#total {
+    background-color: red;
+    padding: 10px 3px;
+    margin: 5px 3px;
+    border-radius: 7px;
+}
+
+#total::before {
+    content: 'Total:';
+}
+
+button {
+    width: 100%;
+    height: 30px;
+    margin: 4px;
+    padding: 4px;
+    border: none;
+    background-color: #7C3AED;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #8B5CF6;
+    transform: scale(1.1);
+    behavior: smooth;
+    letter-spacing: 1px;
+}
+
+.btn-search {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-search button {
+    width: 40%;
+}
+
+.delete {
+    width: 100%;
+    height: 30px;
+    margin: 4px;
+    padding: 4px;
+    border: none;
+    background-color: #320547;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#deleteall {
+    margin: 20px 10px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    min-width: 800px;
+}
+
+
+#delete {
+    background-color: #DC2626;
+}
+
+.footer {
+    margin: 15px;
+    padding: 10px;
+}
+
+.footer p {
+    text-align: center;
+    color: #7C3AED;
+}
+
+
+
+.container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+@media (max-width: 768px) {
+    .cruds {
+        width: 95%;
+    }
+
+    .price {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .price input {
+        width: calc(50% - 4px);
+        margin: 0;
+    }
+
+    #total {
+        display: block;
+        width: 100%;
+        margin: 4px 0;
+    }
+
+    .btn-search {
+        gap: 8px;
+    }
+
+    .btn-search button {
+        width: 50%;
+        margin: 4px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .cruds {
+        width: 94%;
+    }
+
+    .head h1 {
+        font-size: 26px;
+    }
+
+    .head p {
+        font-size: 12px;
+    }
+
+    .price input {
+        width: 100%;
+    }
+
+    .btn-search {
+        flex-direction: column;
+    }
+
+    .btn-search button {
+        width: 100%;
+    }
+}
