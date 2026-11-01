@@ -1,53 +1,49 @@
-📦 Product Management CRUD
+# 📦 Product Management CRUD
 
-A simple and interactive Product Management application built with HTML, CSS, and Vanilla JavaScript. It allows users to manage products and perform CRUD operations with data persistence using Local Storage.
+A simple and interactive Product Management application built with **HTML, CSS, and Vanilla JavaScript**. It allows users to manage products and perform CRUD operations with data persistence using Local Storage.
 
-🚀 Features
+## 🚀 Features
 
-Create: Add new products with their details.
+- **Create:** Add new products with their details.
+- **Read:** Display all products in an organized table.
+- **Update:** Edit existing product information.
+- **Delete:** Remove individual products.
+- **Search:** Search products by model or category.
+- **Price Calculation:** Automatically calculate the total price based on product price, taxes, ads, and discount.
+- **Delete All:** Remove all saved products.
+- **Data Persistence:** Store product data in the browser using Local Storage.
 
-Read: Display all products in an organized table.
+## 🛠️ Technologies Used
 
-Update: Edit existing product information.
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+- Local Storage
+- Font Awesome (if used in the project)
 
-Delete: Remove individual products.
-
-Search: Search products by model or category.
-
-Price Calculation: Automatically calculate the total price based on product price, taxes, ads, and discount.
-
-Delete All: Remove all saved products.
-
-Data Persistence: Store product data in the browser using Local Storage.
-
-🛠️ Technologies Used
-
-HTML5
-
-CSS3
-
-JavaScript (Vanilla JS)
-
-Local Storage 
-📚 What I Learned
+## 📚 What I Learned
 
 Through this project, I practiced:
 
-DOM Manipulation.
+- DOM Manipulation.
+- JavaScript Functions and Events.
+- Arrays and Objects.
+- Array Methods.
+- CRUD Operations.
+- Working with Local Storage.
+- Basic UI development and user interaction.
 
-JavaScript Functions and Events.
+## 🌐 Live Demo: https://karimadel123.github.io/Product-Management-CRUD/
+## 👨‍💻 Author
 
-Arrays and Objects.
+**Karim Adel**
 
-Array Methods.
+- GitHub:https://github.com/karimadel123
 
-CRUD Operations.
+---
 
-Working with Local Storage.
+⭐ If you find this project useful, feel free to give it a star!
 
-Basic UI development and user interaction.
 
-👨‍💻 Author
-Karim Adel
 
-GitHub: @karimadel123
+ https://karimadel123.github.io/Product-Management-CRUD/
